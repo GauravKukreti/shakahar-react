@@ -1,0 +1,83 @@
+.about{
+    color: #242830;
+    background-image: url(../assets/images/content/bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 25px;
+    color: white;
+}
+
+.headingg{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+}
+
+.inside{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#row{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 10px 20px 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: fit-content;
+    background-color: #242830;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.cards>span{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: large;
+}
+
+.cards>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards>img{
+    max-width: 250px;
+}
+
+#developers{
+    padding-bottom: 40px;
+}
+#row{
+    padding-top: 40px;
+}
+  @media screen and (max-width: 600px) {
+    #row {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 943px) {
+    #row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 944px) {
+    #row {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  

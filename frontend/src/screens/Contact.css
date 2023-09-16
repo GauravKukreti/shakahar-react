@@ -1,0 +1,81 @@
+#hero{
+    background-color: #0000009d;
+    /* color: white; */
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url(../assets/images/content/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sometext{
+    font-size: x-large;
+    padding: 12px 12px 12px 0px;
+}
+
+#sometext1{
+    font-size: xx-large;
+    padding: 20px 20px 20px 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#sometext2{
+    padding: 20px 20px 20px 10px;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: #00000060;
+}
+
+#sometext2>span{
+    font-size: xx-large;
+    color: #e74ce5;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 30px 0px;
+    /* background-color: #00000052; */
+    /* border-radius: 20px; */
+}
+
+#contact_form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 72rem;
+    gap: 20px;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,textarea{
+    padding: 10px 10px 10px 10px;
+    font-size: larger;
+    border-radius: 20px;
+    border: none;
+    text-indent: 10px;
+}
+
+#btn-submit{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    padding: 8px 20px 8px 20px;
+    font-size: larger;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
+
+#btn-submit:hover{
+    color: white;
+    background-color: #B910AB;
+}
