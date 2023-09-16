@@ -36,3 +36,7 @@ PAYPAL_CLIENT_ID = your paypal client id
 ```
 
 ### Landing Page Snapshot
+
+<img src='./frontend/public/images/top.png' alt='top'>
+<img src='./frontend/public/images/center.png' alt='center'>
+<img src='./frontend/public/images/bottom.png' alt='bottom'>
